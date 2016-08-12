@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f053551-f096-447b-86d7-5875fc8473e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/js/biz/biz.room.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/js/thirdpart/jquery3.0-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/js/thirdpart/require-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/js/tools/tools.extends.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/js/thirdpart/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LivingClient/js/thirdpart/backbone.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LivingClient/js/thirdpart/jquery3.0-min.js" afterPath="$PROJECT_DIR$/LivingClient/js/thirdpart/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LivingClient/js/thirdpart/require-min.js" afterPath="$PROJECT_DIR$/LivingClient/js/thirdpart/require.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LivingClient/js/thirdpart/underscore-min.js" afterPath="$PROJECT_DIR$/LivingClient/js/thirdpart/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LivingClient/html/index.html" afterPath="$PROJECT_DIR$/LivingClient/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LivingClient/js/main.js" afterPath="$PROJECT_DIR$/LivingClient/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LivingProject.iws" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LivingClient/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -93,9 +92,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LivingClient/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.026737968">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.64171124">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,12 +133,13 @@
         <option value="$PROJECT_DIR$/RoomServer/biz/biz.room.js" />
         <option value="$PROJECT_DIR$/RoomServer/app.js" />
         <option value="$PROJECT_DIR$/RoomServer/module/module.socket.js" />
-        <option value="$PROJECT_DIR$/LivingClient/html/index.html" />
         <option value="$PROJECT_DIR$/LivingClient/js/biz/biz.room.js" />
         <option value="$PROJECT_DIR$/LivingClient/js/tools/tools.extends.js" />
-        <option value="$PROJECT_DIR$/LivingClient/js/main.js" />
         <option value="$PROJECT_DIR$/LivingClient/js/thirdpart/require-min.js" />
         <option value="$PROJECT_DIR$/LivingClient/js/thirdpart/jquery3.0-min.js" />
+        <option value="$PROJECT_DIR$/LivingClient/html/index.html" />
+        <option value="$PROJECT_DIR$/LivingClient/js/thirdpart/backbone-min.js" />
+        <option value="$PROJECT_DIR$/LivingClient/js/main.js" />
       </list>
     </option>
   </component>
@@ -231,51 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LivingProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LivingProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LivingClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="thirdpart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LivingProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LivingProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LivingClient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -734,18 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LivingClient/js/thirdpart/underscore-min.js">
+    <entry file="file://$PROJECT_DIR$/LivingClient/js/thirdpart/underscore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4775281">
           <caret line="4" column="1999" selection-start-line="4" selection-start-column="1999" selection-end-line="4" selection-end-column="1999" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LivingClient/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -766,7 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LivingClient/js/thirdpart/require-min.js">
+    <entry file="file://$PROJECT_DIR$/LivingClient/js/thirdpart/require.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9197861">
           <caret line="38" column="193" selection-start-line="38" selection-start-column="193" selection-end-line="38" selection-end-column="193" />
@@ -774,19 +724,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LivingClient/js/thirdpart/jquery3.0-min.js">
+    <entry file="file://$PROJECT_DIR$/LivingClient/js/thirdpart/backbone.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10695187">
+        <state vertical-scroll-proportion="0.053475935">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LivingClient/js/thirdpart/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8820225">
           <caret line="6" column="22266" selection-start-line="6" selection-start-column="22266" selection-end-line="6" selection-end-column="22266" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LivingClient/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LivingClient/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026737968">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.64171124">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
