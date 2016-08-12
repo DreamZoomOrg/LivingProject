@@ -2,7 +2,6 @@
  * Created by winnie on 16/8/8.
  */
 define(function () {
-
     var routeLibrarian = require('../librarian/librarian.route'),// 路由配置库
         _=require('underscore-contrib'),// underScore工具库
         routeMap = routeLibrarian.routeMap;// 读取route配置
